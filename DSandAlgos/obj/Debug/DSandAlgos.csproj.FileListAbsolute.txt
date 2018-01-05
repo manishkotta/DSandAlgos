@@ -1,0 +1,6 @@
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\bin\Debug\DSandAlgos.exe.config
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\bin\Debug\DSandAlgos.exe
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\bin\Debug\DSandAlgos.pdb
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.exe
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.pdb
+c:\users\manish.kotta\documents\visual studio 2015\Projects\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.csprojResolveAssemblyReference.cache
