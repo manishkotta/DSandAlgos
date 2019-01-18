@@ -5,42 +5,43 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
+
 namespace DSandAlgos
 {
-    class BubbleSort
+    class SelectionSort
     {
-
         static void Main(string[] args)
         {
-            //Bubble Sort
+
+            // Selection Sort
             int[] arr = new int[10000];
             Random st = new Random();
-            for (int i = 0; i < 10000; i++)
+            for (int i=0; i<10000; i++)
             {
                 arr[i] = st.Next(1, 10000);
             }
+
             Stopwatch s = new Stopwatch();
 
             s.Start();
-            for(int i = 0; i < arr.Length - 1; i++)
+            for (int j = 0; j < arr.Length; j++)
             {
-                for(int j=0;j < arr.Length-i-1  ;j++)
+                int arr_min = j;
+                for (int i = j+1; i < arr.Length; i++)
                 {
-                    if (arr[j] > arr[j + 1])
-                    {
-                        // swap temp and arr[i]
-                        int temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
-                    }
+                    if (arr[arr_min] > arr[i])
+                        arr_min = i;
                 }
+
+                int temp2 = arr[j];
+                arr[j] = arr[arr_min];
+                arr[arr_min] = temp2; 
+
             }
             s.Stop();
 
             Console.WriteLine($"Elapsed Milliseconds:{s.ElapsedMilliseconds}");
-
             Console.ReadLine();
         }
-
-        }
     }
+}
