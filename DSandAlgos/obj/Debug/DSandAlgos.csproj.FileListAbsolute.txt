@@ -10,3 +10,4 @@ D:\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.pdb
 D:\DSandAlgos\DSandAlgos\bin\Debug\DSandAlgos.exe
 D:\DSandAlgos\DSandAlgos\bin\Debug\DSandAlgos.pdb
 D:\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.csprojResolveAssemblyReference.cache
+D:\DSandAlgos\DSandAlgos\obj\Debug\DSandAlgos.csproj.CoreCompileInputs.cache

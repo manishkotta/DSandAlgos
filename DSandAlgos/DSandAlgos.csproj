@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DSandAlgos.Arrays.ArrayRotation</StartupObject>
+    <StartupObject>GameOfTwoStacks</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayRotation.cs" />
+    <Compile Include="Arrays\SearchAnItemInRotatedSortedArray.cs" />
+    <Compile Include="EqualSizeStacks.cs" />
+    <Compile Include="GameOfTwoStacks.cs" />
+    <Compile Include="MaxDifferenceInAnArray.cs" />
+    <Compile Include="NewYearChaos.cs" />
+    <Compile Include="SearchingAlgos\JumpSearch.cs" />
     <Compile Include="SortingAlgos\BubbleSort.cs" />
     <Compile Include="CloneLinkedList.cs" />
     <Compile Include="SortingAlgos\InsertionSort.cs" />
@@ -57,6 +63,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
